@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.Hero span {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 0px;
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+.info h2 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.info h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.page2 {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+  border-radius: 150px;
+  background-color: rgb(216, 216, 216);
+}
+.page2 div {
+  display: flex;
+  margin: auto;
+}
+.left-div {
+  display: flex;
+  flex-direction: column;
+}
+.left-div :nth-child(2) {
+  padding: 100px;
+}
+.left-div p {
+  font-size: 20px;
+  font-weight: 400;
+}
