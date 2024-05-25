@@ -1,4 +1,4 @@
-package security;
+package com.bank.app.security;
 
 import com.bank.app.entity.RegisterUser;
 import com.bank.app.repository.UserRepository;

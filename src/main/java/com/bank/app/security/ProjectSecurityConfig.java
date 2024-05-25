@@ -1,4 +1,4 @@
-package security;
+package com.bank.app.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ public class ProjectSecurityConfig   {
 
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-            http
+            http.csrf(csrf->csrf.disable())
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/auth/**").authenticated())
                 .formLogin(Customizer.withDefaults())
